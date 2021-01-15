@@ -25,16 +25,18 @@
         <li><a href="exo8.php">Ex 8</a></li>
     </ul>
 
-    <h1>PHP PART 1</h1>
+    <h1>PHP Partie 1 : Les variables</h1>
     <h2>Exercice 2<h2>
+    <p>Créer trois variables lastname , firstname et age et les initialiser avec les valeurs de votre choix.  Attention age est de type entier.  Afficher leur contenu.</p>
     
-    <?php 
+<?php 
 
 $lastname = "Charef";
 $firstname = "Nora";
 $age = 28;
 
-echo "Hello, je suis $firstname $lastname j'ai $age ";
+echo "Hello, je suis $firstname $lastname j'ai $age ans";
+echo 'Hello, je suis ' . $firstname . ' ' . $lastname . ' j\' ai ' . $age . ' ans';
 ?>
 
 

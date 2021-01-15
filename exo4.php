@@ -25,21 +25,23 @@
         <li><a href="exo8.php">Ex 8</a></li>
     </ul>
 
-    <h1>PHP PART 1</h1>
+    <h1>PHP Partie 1 : Les variables</h1>
     <h2>Exercice 4<h2>
-
+    <p>Créer une variable de type string, une variable de type int, une variable de type float, une variable de type booléan et les initialiser avec une valeur de votre choix.<br>
+Les afficher.</p>
 <?php
-$string = "";
-$sisters = 2;
-$height = 1.57;
+$var_string = "Hello";
+var_dump($var_string);
+$var_int = 2;
+var_dump($var_int);
+$var_float = 1.57;
+var_dump($var_float);
+$var_boolean = false;
+var_dump($var_boolean);
 
-echo "$string J'ai $sisters soeurs je mesure $height ";
+echo "$var_string J'ai $var_int soeurs je mesure $var_float, et la valeur de mon booléen est : $var_boolean";
 
-$je_suis_majeur= true;
 
-if ($je_suis_majeur){
-    echo "je suis majeur";
-}
 ?>
 
 

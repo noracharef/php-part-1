@@ -25,16 +25,21 @@
         <li><a href="exo8.php">Ex 8</a></li>
     </ul>
 
-    <h1>PHP PART 1</h1>
+    <h1>PHP Partie 1 : Les variables</h1>
     <h2>Exercice 5<h2>
+    <p>Créer une variable de type int. L'initialiser avec rien. Afficher sa valeur avec la fonction var_dump.<br>
+Donner une valeur à cette variable et l'afficher.</p>
 
 
 <?php 
 
-$age = null;
+settype($age,"string");
+$age = (int) null;
 var_dump($age);
+
 $age = 28;
-var_dump($age);
+echo $age;
+
 ?>
 
 

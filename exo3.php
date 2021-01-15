@@ -25,22 +25,26 @@
         <li><a href="exo8.php">Ex 8</a></li>
     </ul>
 
-<h1>PHP PART 1</h1>
-<h2>Exercice 3<h2>
+    <h1>PHP Partie 1 : Les variables</h1>
+    <h2>Exercice 3<h2>
+    <p>Créer une variable km. L'initialiser à 1. Afficher son contenu.<br>
+Changer sa valeur par 3. Afficher son contenu.<br>
+Changer sa valeur par 125. Afficher son contenu.</p>
 
 <?php 
 
 $km = 1;
 
-echo $km;
+echo $km . "<br>";
  
 $km = 3;
 
-echo $km;
+echo $km . "<br>";
  
 $km = 125;
 
-echo $km;
+echo $km . "<br>";
+
 ?>
 
 

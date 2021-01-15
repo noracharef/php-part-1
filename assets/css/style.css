@@ -27,3 +27,7 @@ ul {
   li a:hover {
     background-color: #111;
   }
+
+  p{
+    font-size: small;
+  }

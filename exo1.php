@@ -15,7 +15,7 @@
 <body>
 <nav>
     <ul>
-    <li><a href="exo1.php">Ex 1</a></li>
+        <li><a href="exo1.php">Ex 1</a></li>
         <li><a href="exo2.php">Ex 2</a></li>
         <li><a href="exo3.php">Ex 3</a></li>
         <li><a href="exo4.php">Ex 4</a></li>
@@ -25,11 +25,12 @@
         <li><a href="exo8.php">Ex 8</a></li>
     </ul>
 
-<h1>PHP PART 1</h1>
+<h1>PHP Partie 1 : Les variables</h1>
 <h2>Exercice 1<h2>
+<p>Créer une variable name et l'initialiser avec la valeur de votre choix.  Afficher son contenu.</p>
 
 <?php
-$name = "hello";
+$name = "hello world";
 echo $name;
 ?>
 

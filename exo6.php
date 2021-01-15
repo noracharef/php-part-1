@@ -25,13 +25,14 @@
         <li><a href="exo8.php">Ex 8</a></li>
     </ul>
 
-    <h1>PHP PART 1</h1>
+    <h1>PHP Partie 1 : Les variables</h1>
     <h2>Exercice 6<h2>
+    <p>Créer une variable name et l'initialiser avec la valeur de votre choix.<br>
+Afficher : Bonjour + name + , comment vas tu ?.</p>
 
 <?php 
 
 $name = "Nora";
-
 
 echo "Bonjour " . $name . " comment vas-tu ?";
 ?>
